@@ -7,6 +7,9 @@ import { counterItems } from "../constants";
 
 gsap.registerPlugin(ScrollTrigger);
 
+
+
+
 const AnimatedCounter = () => {
   const counterRef = useRef(null);
   const countersRef = useRef([]);
@@ -47,7 +50,7 @@ const AnimatedCounter = () => {
             className="bg-zinc-900 rounded-lg p-10 flex flex-col justify-center"
           >
             <div className="counter-number text-white-50 text-5xl font-bold mb-2">
-              0 {item.suffix}
+              0 {item.suffix} {/* Initial value set to 0, will be animated to the final value */}
             </div>
             <div className="text-white-50 text-lg">{item.label}</div>
           </div>
