@@ -213,15 +213,15 @@ const words = [
   ];
   const testimonials = [
     {
-      name: "Esther Howard",
-      mentions: "@estherhoward",
+      name: "Stuti Gupta",
+      mentions: "@stuti_gupta",
       review:
-        "I can’t say enough good things about Adrian. He was able to take our complex project requirements and turn them into a seamless, functional website. His problem-solving abilities are outstanding.",
+        "I can’t say enough good things about Stuti. She was able to take our complex project requirements and turn them into a seamless, functional website. Her problem-solving abilities are outstanding.",
       imgPath: "",
     },
     {
-      name: "Wade Warren",
-      mentions: "@wadewarren",
+      name: "Sahil Malla",
+      mentions: "@sahil_malla",
       review:
         "Working with Akanksha was a fantastic experience. She transformed our outdated website into a modern, user-friendly platform. Her attention to detail and commitment to quality are unmatched. Highly recommend her for any web dev projects.",
       imgPath: "",
