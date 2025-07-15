@@ -5,6 +5,7 @@ import AnimatedCounter from "../components/AnimatedCounter";
 import Button from "../components/Button";
 import { words } from "../constants";
 import HeroExperience from "../components/Models/Hero_Models/HeroExperience";
+import { resolveAssetPath } from "../utils/resolveAssetPath";
 
 // Hero section component that showcases the main content of the portfolio, use stagger to increase delay in text
 const Hero = () => {
@@ -20,14 +21,14 @@ const Hero = () => {
   return (
     <section id="hero" className="relative overflow-hidden">
       <div className="absolute top-0 left-0 z-10">
-        <img src="/images/bg.png" alt="" />
+        <img src={resolveAssetPath("/images/bg.png")} alt="" />
       </div>
   
       {/* 🔧 FLEX LAYOUT + SPACING FIXED */}
       <section id="hero" className="relative overflow-hidden min-h-screen">
   {/* Background Layer */}
   <div className="absolute inset-0 z-0">
-    <img src="/images/bg.png" alt="" className="w-full h-full object-cover opacity-10" />
+    <img src={resolveAssetPath("/images/bg.png")} alt="" className="w-full h-full object-cover opacity-10" />
   </div>
 
   {/* Hero Content Layout */}

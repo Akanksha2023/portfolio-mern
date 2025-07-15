@@ -22,6 +22,7 @@ import {
   } from "react-icons/si";
 
 import { DiReact, DiNodejs, DiJavascript } from "react-icons/di";
+import { resolveAssetPath } from "../utils/resolveAssetPath";
   
   const logoIconsList = [
     { icon: SiReact, label: "React" },
@@ -79,14 +80,14 @@ const navLinks = [
   ];
 
 const words = [
-    { text: "Ideas", imgPath: "/images/ideas.svg" },
-    { text: "Concepts", imgPath: "/images/concepts.svg" },
-    { text: "Designs", imgPath: "/images/designs.svg" },
-    { text: "Code", imgPath: "/images/code.svg" },
-    { text: "Ideas", imgPath: "/images/ideas.svg" },
-    { text: "Concepts", imgPath: "/images/concepts.svg" },
-    { text: "Designs", imgPath: "/images/designs.svg" },
-    { text: "Code", imgPath: "/images/code.svg" },
+    { text: "Ideas", imgPath: resolveAssetPath("/images/ideas.svg") },
+    { text: "Concepts", imgPath: resolveAssetPath("/images/concepts.svg") },
+    { text: "Designs", imgPath: resolveAssetPath("/images/designs.svg") },
+    { text: "Code", imgPath: resolveAssetPath("/images/code.svg") },
+    { text: "Ideas", imgPath: resolveAssetPath("/images/ideas.svg") },
+    { text: "Concepts", imgPath: resolveAssetPath("/images/concepts.svg") },
+    { text: "Designs", imgPath: resolveAssetPath("/images/designs.svg") },
+    { text: "Code", imgPath: resolveAssetPath("/images/code.svg") },
   ];
 
   const counterItems = [
@@ -99,17 +100,17 @@ const words = [
  
   const abilities = [
     {
-      imgPath: "/images/seo.png",
+      imgPath: resolveAssetPath("/images/seo.png"),
       title: "Quality Focus",
       desc: "Delivering high-quality results while maintaining attention to every detail.",
     },
     {
-      imgPath: "/images/chat.png",
+      imgPath: resolveAssetPath("/images/chat.png"),
       title: "Reliable Communication",
       desc: "Keeping you updated at every step to ensure transparency and clarity.",
     },
     {
-      imgPath: "/images/time.png",
+      imgPath: resolveAssetPath("/images/time.png"),
       title: "On-Time Delivery",
       desc: "Making sure projects are completed on schedule, with quality & attention to detail.",
     },
@@ -119,8 +120,8 @@ const words = [
     {
       review:
         "Akanksha has consistently delivered high-quality full-stack solutions at Deloitte. Her attention to scalable architecture, secure coding, and collaborative mindset has had a meaningful impact on our client applications.",
-      imgPath: "/images/logos/Deloitte.png",
-      logoPath: "/images/logos/Deloitte.png",
+      imgPath: resolveAssetPath("/images/logos/Deloitte.png"),
+      logoPath: resolveAssetPath("/images/logos/Deloitte.png"),
       title: "Full Stack Developer",
       date: "July 2023 – Present",
       responsibilities: [
@@ -132,8 +133,8 @@ const words = [
     {
       review:
         "Akanksha's internship in cybersecurity auditing demonstrated her ability to apply security-first principles in real-world systems. Her audit reports and best practice recommendations were top-notch.",
-      imgPath: "/images/logos/CRIS.png",
-      logoPath: "/images/logos/CRIS2.png",
+      imgPath: resolveAssetPath("/images/logos/CRIS.png"),
+      logoPath: resolveAssetPath("/images/logos/CRIS2.png"),
       title: "Cybersecurity Auditing Intern",
       date: "May 2022 – December 2022",
       responsibilities: [
@@ -145,8 +146,8 @@ const words = [
     {
       review:
         "Akanksha showcased solid Python and Django skills during her full-stack internship. Her ability to build RESTful APIs and clean admin dashboards was impressive.",
-        imgPath: "/images/logos/CRIS.png",
-        logoPath: "/images/logos/CRIS2.png",
+        imgPath: resolveAssetPath("/images/logos/CRIS.png"),
+        logoPath: resolveAssetPath("/images/logos/CRIS2.png"),
       title: "Python Full Stack Developer Intern",
       date: "May 2022 – December 2022",
       responsibilities: [
@@ -159,31 +160,31 @@ const words = [
   const techStackIcons = [
     {
       name: "React Developer",
-      modelPath: "/models/react_logo-transformed.glb",
+      modelPath: resolveAssetPath("/models/react_logo-transformed.glb"),
       scale: 1,
       rotation: [0, 0, 0],
     },
     {
       name: "Python Developer",
-      modelPath: "/models/python-transformed.glb",
+      modelPath: resolveAssetPath("/models/python-transformed.glb"),
       scale: 0.8,
       rotation: [0, 0, 0],
     },
     {
       name: "Backend Developer",
-      modelPath: "/models/node-transformed.glb",
+      modelPath: resolveAssetPath("/models/node-transformed.glb"),
       scale: 5,
       rotation: [0, -Math.PI / 2, 0],
     },
     {
       name: "Interactive Developer",
-      modelPath: "/models/three.js-transformed.glb",
+      modelPath: resolveAssetPath("/models/three.js-transformed.glb"),
       scale: 0.05,
       rotation: [0, 0, 0],
     },
     {
       name: "Git + CI Practices",
-      modelPath: "/models/git-svg-transformed.glb",
+      modelPath: resolveAssetPath("/models/git-svg-transformed.glb"),
       scale: 0.05,
       rotation: [0, -Math.PI / 4, 0],
     },
@@ -191,23 +192,23 @@ const words = [
   const techStackImgs = [
     {
       name: "React Developer",
-      imgPath: "/images/logos/react.png",
+      imgPath: resolveAssetPath("/images/logos/react.png"),
     },
     {
       name: "Python Developer",
-      imgPath: "/images/logos/python.svg",
+      imgPath: resolveAssetPath("/images/logos/python.svg"),
     },
     {
       name: "Backend Developer",
-      imgPath: "/images/logos/node.png",
+      imgPath: resolveAssetPath("/images/logos/node.png"),
     },
     {
       name: "Interactive Developer",
-      imgPath: "/images/logos/three.png",
+      imgPath: resolveAssetPath("/images/logos/three.png"),
     },
     {
       name: "Git + CI Practices",
-      imgPath: "/images/logos/git.svg",
+      imgPath: resolveAssetPath("/images/logos/git.svg"),
     },
   ];
   const testimonials = [
@@ -258,19 +259,19 @@ const words = [
   const socialImgs = [
     {
       name: "insta",
-      imgPath: "/images/insta.png",
+      imgPath: resolveAssetPath("/images/insta.png"),
     },
     {
       name: "fb",
-      imgPath: "/images/fb.png",
+      imgPath: resolveAssetPath("/images/fb.png"),
     },
     {
       name: "x",
-      imgPath: "/images/x.png",
+      imgPath: resolveAssetPath("/images/x.png"),
     },
     {
       name: "linkedin",
-      imgPath: "/images/linkedin.png",
+      imgPath: resolveAssetPath("/images/linkedin.png"),
     },
   ];
   export{

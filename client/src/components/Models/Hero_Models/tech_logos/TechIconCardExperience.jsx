@@ -2,6 +2,7 @@ import { Environment, Float, OrbitControls, useGLTF } from "@react-three/drei";
 import { Canvas } from "@react-three/fiber";
 import { useEffect } from "react";
 import * as THREE from "three";
+import { resolveAssetPath } from "../../../../utils/resolveAssetPath";
 
 
 const TechIconCardExperience = ({ model }) => {
