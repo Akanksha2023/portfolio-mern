@@ -8,7 +8,7 @@
     "start": "vite",
     "dev": "vite",
     "build": "vite build",
-    "deploy": "gh-pages -d dist -r https://github.com/akanksha2023/portfolio-mern.git",
+    "deploy": "gh-pages -d dist -r https://github.com/Akanksha2023/portfolio-mern.git",
     "predeploy": "npm run build",
     "lint": "eslint .",
     "preview": "vite preview"
