@@ -4,7 +4,7 @@ import gsap from "gsap";
 import AnimatedCounter from "../components/AnimatedCounter";
 import Button from "../components/Button";
 import { words } from "../constants";
-import HeroExperience from "../components/models/Hero_Models/HeroExperience";
+import HeroExperience from "../components/Models/Hero_Models/HeroExperience";
 
 // Hero section component that showcases the main content of the portfolio, use stagger to increase delay in text
 const Hero = () => {
