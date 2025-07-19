@@ -119,7 +119,7 @@ const ContactSection = forwardRef((props, ref) => {
     </li>
 
     <li className="group flex flex-col items-center">
-      <a href="https://linkedin.com/in/yourprofile" target="_blank" rel="noreferrer" className="hover:text-blue-400 text-center">
+      <a href="https://www.linkedin.com/in/akanksha-jha-b938701a6" target="_blank" rel="noreferrer" className="hover:text-blue-400 text-center">
         <FloatingIcon className="bg-gradient-to-br from-blue-500 to-indigo-600 text-2xl">
           <FaLinkedin size={24} />
         </FloatingIcon>
@@ -128,7 +128,7 @@ const ContactSection = forwardRef((props, ref) => {
     </li>
 
     <li className="group flex flex-col items-center">
-      <a href="https://github.com/yourprofile" target="_blank" rel="noreferrer" className="hover:text-gray-300 text-center">
+      <a href="https://github.com/Akanksha2023" target="_blank" rel="noreferrer" className="hover:text-gray-300 text-center">
         <FloatingIcon className="bg-gradient-to-br from-gray-700 to-black text-2xl">
           <FaGithub size={24} />
         </FloatingIcon>
