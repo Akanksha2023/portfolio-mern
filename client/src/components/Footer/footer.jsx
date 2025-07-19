@@ -9,13 +9,13 @@ const Footer = () => {
         <p className="text-sm">&copy; {new Date().getFullYear()} Akanksha Jha. All rights reserved.</p>
         
         <div className="flex space-x-4 mt-4 md:mt-0">
-          <a href="https://github.com/yourusername" target="_blank" rel="noopener noreferrer" className="hover:text-teal-400">
+          <a href="https://github.com/Akanksha2023" target="_blank" rel="noopener noreferrer" className="hover:text-teal-400">
             <FaGithub size={20} />
           </a>
-          <a href="https://linkedin.com/in/yourusername" target="_blank" rel="noopener noreferrer" className="hover:text-teal-400">
+          <a href="https://www.linkedin.com/in/akanksha-jha-b938701a6" target="_blank" rel="noopener noreferrer" className="hover:text-teal-400">
             <FaLinkedin size={20} />
           </a>
-          <a href="mailto:your.email@example.com" className="hover:text-teal-400">
+          <a href="mailto:jhaakanksha412@gmail.com" className="hover:text-teal-400">
             <FaEnvelope size={20} />
           </a>
         </div>
